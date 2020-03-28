@@ -26,6 +26,7 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
+    private String aaa;
     @Autowired
     private PayHelper payHelper;
 
